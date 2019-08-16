@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    flex: auto;
+    flex-flow: row wrap;
+    background-color: white;
+}
+
+.shop {
+    display: flex;
+    width: 30%;
+    border: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightsteelblue;
+}
